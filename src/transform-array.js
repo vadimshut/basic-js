@@ -43,4 +43,4 @@ function checkLastElement(array) {
     ? array.splice(array.length - 1, 1)
     : false;
 }
-// task 3 
+// Passing: 35. Failing: 0. Pending: 37   task 3 
