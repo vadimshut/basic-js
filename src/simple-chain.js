@@ -33,3 +33,6 @@ const chainMaker = {
 };
 
 module.exports = chainMaker;
+
+
+//Passing55. Failing: 0. Pending: 17  task6
