@@ -34,7 +34,7 @@ module.exports = function repeater(str, options) {
   };
 
   newOptions = new Options();
-  
+
   for (let option in options){
     if (newOptions[option] !== undefined){
       newOptions[option] = options[option]
@@ -43,3 +43,4 @@ module.exports = function repeater(str, options) {
   return newOptions.getFirstString();
 };
   
+//Passing51. Failing: 0. Pending: 21   task5
