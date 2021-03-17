@@ -14,3 +14,5 @@ module.exports = function dateSample(sampleActivity) {
   if(!activity) {return false;}
   return Math.ceil(((Math.log(MODERN_ACTIVITY / activity)) / (Math.log(2)) * HALF_LIFE_PERIOD));
 };
+
+// Passing: 41. Failing: 0. Pending: 31 task4
